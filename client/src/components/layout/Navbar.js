@@ -15,6 +15,12 @@ const Navbar = ({ title, icon }) => {
         <li>
           <Link to='/about'>About <i class="fas fa-info-circle" /></Link>
         </li>
+        <li>
+          <Link to='/register'>Register <i class="fas fa-user-plus" /></Link>
+        </li>
+        <li>
+          <Link to='/login'>Login <i class="fas fa-sign-in-alt" /></Link>
+        </li>
       </ul>
     </div>
   )
